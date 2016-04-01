@@ -1,0 +1,14 @@
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\UsersDatabase.mdf
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\UsersDatabase_log.ldf
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\QuestionaryDataModel.dll.config
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\QuestionaryDataModel.dll
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\QuestionaryDataModel.pdb
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\EntityFramework.dll
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\EntityFramework.SqlServer.dll
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\EntityFramework.xml
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\EntityFramework.SqlServer.xml
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\ru\EntityFramework.resources.dll
+D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\dev\C# projects\Questionary\QuestionaryDataModel\obj\Debug\QuestionaryDataModel.dll
+D:\dev\C# projects\Questionary\QuestionaryDataModel\obj\Debug\QuestionaryDataModel.pdb
+D:\dev\C# projects\Questionary\QuestionaryDataModel\obj\Debug\QuestionaryDataModel.csprojResolveAssemblyReference.cache
