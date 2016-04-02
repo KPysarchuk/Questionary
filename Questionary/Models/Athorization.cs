@@ -1,18 +1,17 @@
-﻿using Newtonsoft.Json;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.Mvc;
 
 namespace Questionary.Models
 {
-    public class AuthorizeUserAttribute : AuthorizeAttribute
-        {
-        protected override bool AuthorizeCore(HttpContextBase httpContext)
+    public static class Athorization
+    {
+        public static bool AuthorizationCheck()
         {
 
-
+            var httpContext = System.Web.HttpContext.Current;
             if (httpContext.Request.Cookies["questionary"] != null)
             {
 
@@ -22,15 +21,10 @@ namespace Questionary.Models
             }
             else
             {
-                return false;  
+                return false;
+
             }
 
-
         }
-
-
-
-
     }
-    
 }

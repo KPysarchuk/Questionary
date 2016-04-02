@@ -12,22 +12,10 @@ namespace Questionary.Controllers
     {
         public ActionResult Index()
         {
-            if (Request.Cookies["questionary"] != null)
-            {
-                
-
-                ViewBag.Login = "success";
-                ViewBag.UserName = JsonConvert.DeserializeObject<UserInfo>(Request.Cookies["questionary"]["userinfo"]).Name;
-
-            }
-            else
-            {
-                ViewBag.Login = "fail";
-
-            }
+            
             return View();
         }
-
+        [AuthorizeUser]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -35,12 +23,13 @@ namespace Questionary.Controllers
             return View();
         }
 
-        [MyAuthorize]
+        [AuthorizeUser]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
 
             return View();
         }
+
     }
 }

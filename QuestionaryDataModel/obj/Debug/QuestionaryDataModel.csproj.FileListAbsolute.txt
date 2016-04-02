@@ -11,4 +11,3 @@ D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\ru\EntityFramework
 D:\dev\C# projects\Questionary\QuestionaryDataModel\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 D:\dev\C# projects\Questionary\QuestionaryDataModel\obj\Debug\QuestionaryDataModel.dll
 D:\dev\C# projects\Questionary\QuestionaryDataModel\obj\Debug\QuestionaryDataModel.pdb
-D:\dev\C# projects\Questionary\QuestionaryDataModel\obj\Debug\QuestionaryDataModel.csprojResolveAssemblyReference.cache

@@ -1,0 +1,56 @@
+﻿@using Questionary.Models
+@model RegistrationModel
+
+
+
+
+@{
+    ViewBag.Title = "Добавление игрока";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Registration</h2>
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>User</legend>
+
+        <p>
+            Login <br />
+            @Html.EditorFor(model => model.Login)
+        </p>
+
+        <p>
+            Password <br />
+            @Html.EditorFor(model => model.Password)
+        </p>
+
+        <p>
+            Name  <br />
+            @Html.EditorFor(model => model.Name)
+        </p>
+
+        <p>
+            Surname  <br />
+            @Html.EditorFor(model => model.Surname)
+        </p>
+        
+        <p>
+            Country  <br />
+            @Html.EditorFor(model => model.Country)
+        </p>
+
+        <p>
+            City  <br />
+            @Html.EditorFor(model => model.City)
+        </p>
+        
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+<div>
+    @Html.ActionLink("Home", "Index")
+</div>

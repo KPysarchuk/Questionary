@@ -52,5 +52,32 @@ namespace Questionary.Controllers
             Response.Cookies["questionary"].Expires = DateTime.Now.AddDays(-7);
             return RedirectToAction("Index", "Home");
         }
+
+        [HttpGet]
+        public ActionResult Registration()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Registration(RegistrationModel rm)
+        {
+            using (var db = new QuestionaryEntities())
+            {
+
+                Users user = new Users
+                {
+                    Login = rm.Login,
+                    Password = rm.Password,
+                    Name = rm.Name,
+                    Surname = rm.Surname,
+                    City = rm.City,
+                    Country = rm.Country
+                };
+                db.Users.Add(user);
+                db.SaveChanges();
+                return View();
+            }
+        }
     }
 }
