@@ -5,7 +5,7 @@
 
 
 @{
-    ViewBag.Title = "Добавление игрока";
+    ViewBag.Title = "Registration";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -23,7 +23,7 @@
 
         <p>
             Password <br />
-            @Html.EditorFor(model => model.Password)
+            @Html.PasswordFor(model => model.Password)
         </p>
 
         <p>
@@ -47,10 +47,7 @@
         </p>
         
         <p>
-            <input type="submit" value="Save" />
+            <input type="submit" value="Registration" />
         </p>
     </fieldset>
 }
-<div>
-    @Html.ActionLink("Home", "Index")
-</div>

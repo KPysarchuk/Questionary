@@ -13,7 +13,7 @@ namespace Questionary.Models
         public string Surname { get; set; }
         public string Country { get; set; }
         public string City { get; set; }
-        public string Photo { get; set; }
-        public string Song { get; set; }
+        public HttpPostedFileBase Photo { get; set; }
+        public HttpPostedFileBase Song { get; set; }
     }
 }

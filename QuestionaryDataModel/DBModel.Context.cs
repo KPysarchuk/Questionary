@@ -26,5 +26,7 @@ namespace QuestionaryDataModel
         }
     
         public virtual DbSet<Users> Users { get; set; }
+
+       // public System.Data.Entity.DbSet<Questionary.Models.UserInfo> UserInfoes { get; set; }
     }
 }
